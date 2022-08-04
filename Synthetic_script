@@ -16,6 +16,11 @@ BloxFruitSection:NewButton("Tawan Hub", "FE Admin Commands", function()
 end)
 
 
+BloxFruitSection:NewButton("Xeter Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Xeter"))()
+end)
+
+
 -- PetSimX
 local PetSimX = Window:NewTab("Pet Simulator X")
 local PetSimXSection = PetSimX:NewSection("Script Pet Simulator X")
@@ -23,4 +28,14 @@ local PetSimXSection = PetSimX:NewSection("Script Pet Simulator X")
 
 PetSimXSection:NewButton("Ultra Hub", "FE Admin Commands", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+end)
+
+
+PetSimXSection:NewButton("Moonlight Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet('https://cookie-hosting.xyz/Roblox/Moonlight/Loader.lua'))()
+end)
+
+
+PetSimXSection:NewButton("BK Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
 end)
