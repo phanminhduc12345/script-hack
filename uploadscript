@@ -1,0 +1,60 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Synthetic script | Make By ! .#2841 ", "DarkTheme")
+
+-- BloxFruit
+local BloxFruit = Window:NewTab("Blox Fruit")
+local BloxFruitSection = BloxFruit:NewSection("Script Blox Fruit")
+
+
+BloxFruitSection:NewButton("Ren Kaiton", "FE Admin Commands", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/Ren_Kaiton.ByMetaHub'))()
+end)
+
+
+BloxFruitSection:NewButton("Tawan Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/kill55547/TAWAN_HUB/main/hub.lua.txt', true))()
+end)
+
+
+BloxFruitSection:NewButton("Xeter Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Xeter"))()
+end)
+
+
+BloxFruitSection:NewButton("One X Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/One-x-HUB/main/README.md"))()
+end)
+
+
+BloxFruitSection:NewButton("FROPPA Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/natoppo044/dkd/main/GG.lua"))()
+end)
+
+-- PetSimX
+local PetSimX = Window:NewTab("Pet Simulator X")
+local PetSimXSection = PetSimX:NewSection("Script Pet Simulator X")
+
+
+PetSimXSection:NewButton("Ultra Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+end)
+
+
+PetSimXSection:NewButton("Moonlight Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet('https://cookie-hosting.xyz/Roblox/Moonlight/Loader.lua'))()
+end)
+
+
+PetSimXSection:NewButton("BK Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+end)
+
+
+PetSimXSection:NewButton("Lunar Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://github.com/HazeNx/shimbo/raw/main/euphoria.lua"))()
+end)
+
+
+PetSimXSection:NewButton("Simple Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/31"))()
+end)
