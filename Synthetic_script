@@ -1,0 +1,26 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Synthetic script | Make By ! .#2841 ", "DarkTheme")
+
+-- BloxFruit
+local BloxFruit = Window:NewTab("Blox Fruit")
+local BloxFruitSection = BloxFruit:NewSection("Script Blox Fruit")
+
+
+BloxFruitSection:NewButton("Ren Kaiton", "FE Admin Commands", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/Ren_Kaiton.ByMetaHub'))()
+end)
+
+
+BloxFruitSection:NewButton("Tawan Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/kill55547/TAWAN_HUB/main/hub.lua.txt', true))()
+end)
+
+
+-- PetSimX
+local PetSimX = Window:NewTab("Pet Simulator X")
+local PetSimXSection = PetSimX:NewSection("Script Pet Simulator X")
+
+
+PetSimXSection:NewButton("Ultra Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+end)
