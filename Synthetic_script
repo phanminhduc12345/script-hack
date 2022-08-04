@@ -21,6 +21,15 @@ BloxFruitSection:NewButton("Xeter Hub", "FE Admin Commands", function()
 end)
 
 
+BloxFruitSection:NewButton("One X Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/One-x-HUB/main/README.md"))()
+end)
+
+
+BloxFruitSection:NewButton("FROPPA Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/natoppo044/dkd/main/GG.lua"))()
+end)
+
 -- PetSimX
 local PetSimX = Window:NewTab("Pet Simulator X")
 local PetSimXSection = PetSimX:NewSection("Script Pet Simulator X")
@@ -38,4 +47,14 @@ end)
 
 PetSimXSection:NewButton("BK Hub", "FE Admin Commands", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+end)
+
+
+PetSimXSection:NewButton("Lunar Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://github.com/HazeNx/shimbo/raw/main/euphoria.lua"))()
+end)
+
+
+PetSimXSection:NewButton("Simple Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/31"))()
 end)
