@@ -97,4 +97,3 @@ local MainSection = Main:NewSection("Misc")
 MainSection:NewKeybind("Press Any Key", "KeybindInfo", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
-
