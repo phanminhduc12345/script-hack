@@ -1,19 +1,30 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Synthetic script | Make By ! .#2841 | HN Gaming | Version : 1.1v", "Midnight")
+local Window = Library.CreateLib("Synthetic script | Make By ! .#2841 | HN Gaming | Version : 1.5v", "Midnight")
 
 -- Update
 local Update = Window:NewTab("Update")
 local UpdateSection = Update:NewSection("Note : Script Make By ! .#2841")
                       Update:NewSection("Update Anti Afk, No Clip, Esp In Main")
-                      Update:NewSection("Update Some Script In Blox Fruit")
+                      Update:NewSection("Update 2 Script In Pet Simulator X")
+                      Update:NewSection("Update 3 Script In BloxFruit")
 
 -- BloxFruit
 local BloxFruit = Window:NewTab("Blox Fruit")
 local BloxFruitSection = BloxFruit:NewSection("Script Blox Fruit")
 
 
-BloxFruitSection:NewButton("Ren Kaiton", "FE Admin Commands", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/bloxfruit/main/Ren_Kaiton.ByMetaHub'))()
+BloxFruitSection:NewButton("Cve Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Cve-Hub/LUNARHUBnewUI/main/Protected%20(14).lua'))()
+end)
+
+
+BloxFruitSection:NewButton("Dolce Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bearhub1/DolceHub/main/Blox-Fruits.lua"))()
+end)
+
+
+BloxFruitSection:NewButton("Zen Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bloxfrui%20v0.3", true))()
 end)
 
 
@@ -39,6 +50,11 @@ end)
 -- PetSimX
 local PetSimX = Window:NewTab("Pet Simulator X")
 local PetSimXSection = PetSimX:NewSection("Script Pet Simulator X")
+
+
+PetSimXSection:NewButton("Sinnx32 Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/sinnx32/prx/main/Petsim")()
+end)
 
 
 PetSimXSection:NewButton("Tr1V5 Hub", "FE Admin Commands", function()
