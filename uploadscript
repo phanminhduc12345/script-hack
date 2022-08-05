@@ -1,5 +1,11 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Synthetic script | Make By ! .#2841 | HN Gaming", "Midnight")
+local Window = Library.CreateLib("Synthetic script | Make By ! .#2841 | HN Gaming | Version : 1.1v", "Midnight")
+
+-- Update
+local Update = Window:NewTab("Update")
+local UpdateSection = Update:NewSection("Note : Script Make By ! .#2841")
+                      Update:NewSection("Update Anti Afk, No Clip, Esp In Main")
+                      Update:NewSection("Update Some Script In Blox Fruit")
 
 -- BloxFruit
 local BloxFruit = Window:NewTab("Blox Fruit")
@@ -107,5 +113,20 @@ end)
 
 
 MainSection:NewButton("Boost Fps", "Lets you chat for other people", function()
-    loadstring(game:HttpGet(('https://pastebin.com/ywFjby1i'),true))()
+    loadstring(game:HttpGet(("https://pastebin.com/ywFjby1i"),true))()
+end)
+
+
+MainSection:NewButton("Anti Afk", "Lets you chat for other people", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/J8H1KhAm"),true))()
+end)
+
+
+MainSection:NewButton("No clip", "Lets you chat for other people", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/pECMCCi0"),true))()
+end)
+
+
+MainSection:NewButton("Esp", "Lets you chat for other people", function()
+    loadstring(game:HttpGet(("https://github.com/phanminhduc12345/script-hack/raw/main/esp"),true))()
 end)
