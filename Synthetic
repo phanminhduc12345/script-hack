@@ -1,10 +1,10 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Synthetic script | Make By ! .#2841 | HN Gaming | Version : 1.5v", "Midnight")
+local Window = Library.CreateLib("Synthetic script | Make By ! .#2841 | HN Gaming | Version : 1.5v", "DarkTheme")
+
 
 -- Update
 local Update = Window:NewTab("Update")
-local UpdateSection = Update:NewSection("Note : Script Make By ! .#2841")
-                      Update:NewSection("Update Anti Afk, No Clip, Esp In Main")
+local UpdateSection = Update:NewSection("Update Anti Afk, No Clip, Esp In Main")
                       Update:NewSection("Update 2 Script In Pet Simulator X")
                       Update:NewSection("Update 3 Script In BloxFruit")
 
@@ -146,3 +146,23 @@ end)
 MainSection:NewButton("Esp", "Lets you chat for other people", function()
     loadstring(game:HttpGet(("https://github.com/phanminhduc12345/script-hack/raw/main/esp"),true))()
 end)
+
+-- General
+local General = Window:NewTab("General Script")
+local GeneralSection = General:NewSection("General Script")
+
+
+GeneralSection:NewButton("Inf Yield", "Lets you chat for other people", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"),true))()
+end)
+
+
+GeneralSection:NewButton("CMD-X V2", "Lets you chat for other people", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"), true))()
+end)
+
+-- Credit
+
+local Credit = Window:NewTab("Credit")
+local GeneralSection = Credit:NewSection("This Script Made By ! .#2841")
+local GeneralSection = Credit:NewSection("Gui Made By ! .#2841")
