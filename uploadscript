@@ -35,6 +35,11 @@ local PetSimX = Window:NewTab("Pet Simulator X")
 local PetSimXSection = PetSimX:NewSection("Script Pet Simulator X")
 
 
+PetSimXSection:NewButton("Tr1V5 Hub", "FE Admin Commands", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TR1V5/TR1V5-Software-V4/main/Games/Pet%20Simulator%20X"))()
+end)
+
+
 PetSimXSection:NewButton("Ultra Hub", "FE Admin Commands", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
 end)
@@ -90,6 +95,8 @@ PlayerSection:NewButton("Chat Spoofer", "Lets you chat for other people", functi
     loadstring(game:HttpGet(('https://pastebin.com/raw/djBfk8Li'),true))()
 end)
 
+
+
 -- Main
 local Main = Window:NewTab("Misc")
 local MainSection = Main:NewSection("Misc")
@@ -98,3 +105,7 @@ MainSection:NewKeybind("Press Any Key", "KeybindInfo", Enum.KeyCode.F, function(
 	Library:ToggleUI()
 end)
 
+
+MainSection:NewButton("Boost Fps", "Lets you chat for other people", function()
+    loadstring(game:HttpGet(('https://pastebin.com/ywFjby1i'),true))()
+end)
