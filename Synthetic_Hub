@@ -1,0 +1,21 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({
+    Name = "Synthetic Script",
+    HidePremium = false,
+    IntroEnabled = true,
+    IntroText = "Synthetic Script",
+    SaveConfig = true,
+    ConfigFolder = "Synthetic Script",
+})
+
+local Tab = Window:MakeTab({
+	Name = "Update",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Tab = Window:MakeTab({
+	Name = "Bloxfruit",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
